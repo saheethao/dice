@@ -1,1 +1,1 @@
-# dice
+This project is just an exercise. The idea is if you could cheat on a d20 roll (moving one side over) how would that effect the roll? Also if you could make another number a critical, what side would benefit the most (and least)?
