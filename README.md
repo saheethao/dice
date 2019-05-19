@@ -1,1 +1,28 @@
-This project is just an exercise. The idea is if you could cheat on a d20 roll (moving one side over) how would that effect the roll? Also if you could make another number a critical, what side would benefit the most (and least)?
+Dice Roller
+
+Grammar
+
+Statment -> ArrayStatement
+Statment -> RollStatement
+
+ArrayStatement -> create array Number { RollSequence } DropStatement
+
+RollSequence -> RollSequence RollStatement
+RollSequence ->
+
+RollStatement -> roll Number d Number DropStatement
+
+DropStatement -> drop DropWord
+
+Number -> *a number*
+
+DropWord -> lowest
+DropWord -> lowest Number
+DropWord -> highest
+DropWord -> highest Number
+DropWord -> random Number
+DropWord -> [ Range ]
+
+Range -> ( Number - Number )
+Range -> Range Number
+Range ->
