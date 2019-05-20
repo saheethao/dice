@@ -1,5 +1,5 @@
-#Dice Roller
-##Grammar 1
+# Dice Roller
+## Grammar 1
 <br/><br/>
 
 Statement -> Roll Drop<br/>
@@ -32,7 +32,7 @@ Range -> Range Number<br/>
 Range -><br/>
 <br/><br/>
 
-##Grammar 2
+## Grammar 2
 <br/><br/>
 Statment -> ArrayStatement<br/>
 Statment -> RollStatement
