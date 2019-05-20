@@ -4,20 +4,20 @@
 Statement  -> Roll Drop
 
 Roll       -> Result
-Roll       -> Result Op Result
+
+Result     -> Roll
+Result     -> Dice
+Result     -> Number
+Result     -> Op Result
+
+Dice      -> Number d Number
+
+Number    -> INT
 
 Op         -> +
 Op         -> -
 Op         -> *
 Op         -> /
-
-Result     -> Roll
-Result     -> Dice
-Result     -> Number
-
-Dice      -> Number d Number
-
-Number    -> INT
 
 Drop      -> lowest
 Drop      -> lowest Number
