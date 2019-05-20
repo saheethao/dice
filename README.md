@@ -1,21 +1,21 @@
 # Dice Roller
 ## Grammar 1
 
-Statement -> Roll Drop<br/>
+Statement -> Roll Drop
 <br/><br/>
 
-Roll      -> Result Op Result<br/>
+Roll      -> Result Op Result
 <br/><br/>
 
 Result    -> Roll<br/>
 Result    -> Dice<br/>
-Result    -> Number<br/>
+Result    -> Number
 <br/><br/>
 
-Dice -> Number d Number<br/>
+Dice -> Number d Number
 <br/><br/>
 
-Number -> INT<br/>
+Number -> INT
 <br/><br/>
 
 Drop     -> lowest<br/>
@@ -23,12 +23,12 @@ Drop     -> lowest Number<br/>
 Drop     -> highest<br/>
 Drop     -> highest Number<br/>
 Drop     -> random Number<br/>
-Drop     -> [ Range ]<br/>
+Drop     -> [ Range ]
 <br/><br/>
 
 Range    -> ( Number - Number )<br/>
 Range    -> Range Number<br/>
-Range    -><br/>
+Range    ->
 <br/><br/>
 
 ## Grammar 2
