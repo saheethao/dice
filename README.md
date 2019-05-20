@@ -5,6 +5,11 @@ Statement  -> Roll Drop
 
 Roll       -> Result Op Result
 
+Op         -> +
+Op         -> -
+Op         -> *
+Op         -> /
+
 Result     -> Roll
 Result     -> Dice
 Result     -> Number
