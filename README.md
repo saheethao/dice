@@ -5,24 +5,24 @@ Statement -> Roll Drop
 
 Roll      -> Result Op Result
 
-Result    -> Roll
-Result    -> Dice
-Result    -> Number
+Result     -> Roll
+Result     -> Dice
+Result     -> Number
 
-Dice     -> Number d Number
+Dice      -> Number d Number
 
-Number   -> INT
+Number    -> INT
 
-Drop     -> lowest
-Drop     -> lowest Number
-Drop     -> highest
-Drop     -> highest Number
-Drop     -> random Number
-Drop     -> [ Range ]
+Drop      -> lowest
+Drop      -> lowest Number
+Drop      -> highest
+Drop      -> highest Number
+Drop      -> random Number
+Drop      -> [ Range ]
 
-Range    -> ( Number - Number )
-Range    -> Range Number
-Range    ->
+Range     -> ( Number - Number )
+Range     -> Range Number
+Range     ->
 </pre>
 ## Grammar 2
 <br/><br/>
