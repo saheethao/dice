@@ -1,11 +1,8 @@
 # Dice Roller
 ## Grammar 1
 <pre>
-Statement  -> Roll Drop
+Statement  -> Result Drop
 
-Roll       -> Result
-
-Result     -> Roll
 Result     -> Dice
 Result     -> Number
 Result     -> Op Result
