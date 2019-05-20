@@ -9,9 +9,9 @@ Result    -> Roll
 Result    -> Dice
 Result    -> Number
 
-Dice -> Number d Number
+Dice      -> Number d Number
 
-Number -> INT
+Number    -> INT
 
 Drop     -> lowest
 Drop     -> lowest Number
