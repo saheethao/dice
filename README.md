@@ -3,9 +3,9 @@
 <pre>
 Statement  -> Result Drop
 
+Result     -> Result Op Result
 Result     -> Dice
 Result     -> Number
-Result     -> Op Result
 
 Dice      -> Number d Number
 
